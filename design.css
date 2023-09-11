@@ -1,0 +1,301 @@
+header {
+    background-color: #131921;
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    display: flex;
+}
+
+.logo {
+    align-items: center;
+}
+
+.location {
+    align-items: center;
+}
+
+.hello {
+    display: flex;
+}
+
+.src {
+    display: inline-block;
+    border: 2px solid #131921;
+}
+
+#options {
+    position: absolute;
+}
+
+.search {
+    position: absolute;
+}
+.country {
+    background-color: #131921;
+}
+
+
+.account p {
+    font-size: 12px;
+}
+
+.account {
+    display: flex;
+}
+
+.return {
+    font-size: 12px;
+}
+
+.cart {
+
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    background-color: #080828CF;
+    color: white;
+    width: auto;
+}
+
+.nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 9px;
+    display: flex;
+}
+
+#arrow {
+    width: 9px;
+    height: 9px;
+    padding: 5px;
+}
+
+#option {
+    display: flex;
+    width: 20px;
+    padding-right: 3px;
+}
+
+.image {
+    /* background-image: url(https://m.media-amazon.com/images/I/61aURrton0L._SX3000_.jpg);
+    background-size: 106vw 586px;
+    background-repeat: no-repeat;
+    height: 243px; */
+    animation: background_image 60s linear 0s infinite none;
+}
+
+footer {
+    background-color: #232F3E;
+    width: auto;
+
+}
+
+.first {
+    display: flex;
+    padding: 50px;
+    color: #DDD;
+    padding-left: 64px;
+}
+
+.first li {
+    padding: 5px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.FirstFooter {
+    display: flex;
+    padding-left: 149px;
+}
+
+.first ul {
+    width: max-content;
+}
+
+.blank {
+    background-color: #DDD;
+    height: 1px;
+}
+
+.SecondFooter {
+    display: flex;
+    padding: 10px 30vw 18px 38vw;
+}
+
+.FooterLogo img {
+    width: 86px;
+}
+
+.FooterLogo {
+    padding-right: 79px;
+}
+
+.lang {
+    color: #DDD;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    width: 117px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.lang img {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    padding: 0px 5px 0px 10px;
+}
+
+.third {
+    color: #DDD;
+    display: flex;
+    padding-left: 236px;
+    margin-bottom: 23px;
+}
+
+.third ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 210px;
+    padding-bottom: 30px;
+}
+
+.third ul li {
+    padding: 2px 8px 0px 8px;
+    font-size: small;
+}
+
+.fourth {
+    display: flex;
+    color: #DDD;
+    justify-content: center;
+    background-color: #131A22;
+    ;
+    padding: 15px;
+
+
+}
+
+.fourth tr td {
+    font-size: 12px;
+    padding: 10px 29px 10px 29px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.last {
+    color: #DDD;
+    background-color: #131A22;
+    ;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.last ul {
+    list-style: none;
+    display: flex;
+}
+
+.last li {
+    padding: 10px 10px 5px 10px;
+}
+
+.last p {
+    padding-bottom: 30px;
+}
+
+.product {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    background-color: #d2d2d2;
+    padding: 9.5px;
+}
+
+.menu {
+    background-color: white;
+    margin: 9.5px;
+    width: 311px;
+    height: 419px;
+    display: grid;
+}
+
+.megaitem {
+    width: 20.25vw;
+    height: 271px;
+    padding: 8px 18px 18px 18px;
+}
+
+.miniitem {
+    padding: 6px;
+    width: 133px;
+    height: 103px;
+}
+
+.heading {
+    padding: 15px 18px 0px 18px;
+    height: 59.25px;
+}
+
+.link {
+    padding: 0px 0px 20px 18px;
+}
+
+.items {
+    padding-left: 12px;
+}
+@keyframes background_image {
+    0% {
+        background-image: url(https://m.media-amazon.com/images/I/61aURrton0L._SX3000_.jpg);
+        background-size: 106vw 586px;
+        background-repeat: no-repeat;
+        height: 243px;
+    }
+
+    20% {
+        background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/IN/OHL/GW/Post/PD23/Unrec/PC_hero_1_2x._CB599886239_.jpg);
+        background-size: 106vw 586px;
+        background-repeat: no-repeat;
+        height: 243px;
+    }
+
+    40% {
+        background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Beauty/GW/ATF/Skincare-Herofader-PCqr._CB600215137_.jpg);
+        background-size: 106vw 586px;
+        background-repeat: no-repeat;
+        height: 243px;
+    }
+    60%{
+        background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/2023/GateWay/July/Unrec/Helmet_PC._CB600176820_.jpg);
+        background-size: 106vw 586px;
+        background-repeat: no-repeat;
+        height: 243px;
+    }
+    80%{
+        background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/PCA/Groomingfest/DesktopHero_UNREC-2X._CB601245817_.jpg);
+        background-size: 106vw 586px;
+        background-repeat: no-repeat;
+        height: 243px;
+    }
+    100%{
+        background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Unrec/TallHero_3000X1200_Unrec._CB593464763_.jpg);
+        background-size: 106vw 586px;
+        background-repeat: no-repeat;
+        height: 243px;
+    }
+}
